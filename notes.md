@@ -569,14 +569,35 @@ Sales_data 将成为 Bar<Sales_data>的友元
 
 c++11 为类模版定义一个类型别名
 
+<<<<<<< HEAD
 ```c++
+=======
+​```c++
+>>>>>>> 20ee544f3ba45183ccc748cd6af0bce79810f31e
 template<typename T> using Twin = pair<T,T>;
 twin<string> authors;
 
 template<typename T> using partNo = pair<T, unsigned>;
 partNo<string> books;
 partNo<Student> kids;
+<<<<<<< HEAD
 ```
+=======
+  ```
+
+
+
+
+
+
+
+
+
+
+
+
+
+>>>>>>> 20ee544f3ba45183ccc748cd6af0bce79810f31e
 
 
 ## Overview of C++11 from Scott Meyers
