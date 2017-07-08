@@ -29,7 +29,6 @@
    }
    ```
 
-   ​
 
 6. 前向声明：把函数的声明和定义分开，只能在有限条件下使用，可以定义指向这种类型的指针或引用； 或者 声明 以不完全类型作为参数或者返回类型的函数。
 
@@ -569,39 +568,16 @@ Sales_data 将成为 Bar<Sales_data>的友元
 
 c++11 为类模版定义一个类型别名
 
-<<<<<<< HEAD
 ```c++
-=======
-​```c++
->>>>>>> 20ee544f3ba45183ccc748cd6af0bce79810f31e
 template<typename T> using Twin = pair<T,T>;
 twin<string> authors;
 
 template<typename T> using partNo = pair<T, unsigned>;
 partNo<string> books;
 partNo<Student> kids;
-<<<<<<< HEAD
 ```
-=======
-  ```
-
-
-
-
-
-
-
-
-
-
-
-
-
->>>>>>> 20ee544f3ba45183ccc748cd6af0bce79810f31e
-
 
 ## Overview of C++11 from Scott Meyers
-
 
 
 ## C++ 11 特性（深入理解）
