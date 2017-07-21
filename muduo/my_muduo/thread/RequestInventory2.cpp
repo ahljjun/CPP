@@ -98,7 +98,7 @@ void Inventory::printAll() const
     }
 
     std::this_thread::sleep_for(std::chrono::seconds(1));
-    for(auto it = m_requestsPtr->begin(); it!=m_requestsPtr->end(); ++it)
+    for(auto it = requests->begin(); it!=requests->end(); ++it)
         (*it)->print();
 }
 
